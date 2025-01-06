@@ -77,6 +77,11 @@
   + PC or 노트북(Local)
   + Global → Remote(원격) → Local
 
+  + COMMIT: 로컬 버전 생성
+  + PUSH: 로컬에서 생성된 버전을 원격 저장소(Github)에 업로드
+  + PULL: 원격 저장소(Github)로 부터 파일을 다운로드
+  
+
   1. 로컬: git 설치
   2. GITHUB: github rppository 생성
   3. 로컬: git config --global user.email and user.name 설정정
