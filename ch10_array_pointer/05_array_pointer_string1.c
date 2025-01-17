@@ -17,6 +17,20 @@
        따라서, 그 값을 바꾸는 명령 실행을 제한함 
        ex) *"apple" = 't'; 코드상으로 문제 없지만 실행하면 "강제 종료" 될 수 있음  
 
+    ※ 자료형에 따른 scanf() 사용법 
+      ex) int num = 4;
+          char name[4] = "lkm";
+          int ary[3] = {10, 20, 30};
+          scanf("%d", &num);
+          scanf("%s", name); 
+          // 배열명 → 첫번째 요소의 시작주소  
+          //  - ary(주소) + 1 → 주소 연산 
+          //  - ary[2] → 세번째 요소의 값 
+          scanf("%d", &ary[2]);
+          scanf("%d", ary+2);
+
+
+
     ※ 객체지향언어의 Mutable Types과 Immutable Types
       1. Mutable Types: 생성 후 수정 가능한 자료형
         - LIST, DICT
