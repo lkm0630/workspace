@@ -23,7 +23,7 @@ int main(){
     printf("몸무게(kg): ");
     scanf("%d", &weight);
 
-    // 데이터 전처리리
+    // 데이터 전처리 
     double height_m = (double)height/100;
 
     // 2. 제어부
