@@ -8,5 +8,5 @@ void main(){
 		c *= i;
     }
 
-	printf("%d",c);
+	printf("%d",c);  // 정답: 0 
 }

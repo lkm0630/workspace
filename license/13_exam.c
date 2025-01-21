@@ -10,12 +10,12 @@ int main() {
         sum += n[i];
     }
 
-    switch(sum/30) {
+    switch(sum/30) {  // 250 / 30 = 8 
         case 10:
         case 9: printf("A");
-        case 8: printf("B");
-        case 7:
-        case 6: printf("C");
-        default:  printf("D");
-    }
+        case 8: printf("B");    // 실행
+        case 7:                 // 실행
+        case 6: printf("C");    // 실행
+        default:  printf("D");  // 실행 
+    }                           // 정답: BCD 
 }
